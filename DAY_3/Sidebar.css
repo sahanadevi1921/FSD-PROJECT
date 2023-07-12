@@ -1,0 +1,117 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  padding: 0;
+  color: #ebe7e792;
+  opacity:0.8;
+  background-image:url("https://illuminationconsulting.com/wp-content/uploads/2015/02/ecommerce-websites.jpg") no-repeat fixed ;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Della Respira', serif;
+  font-weight: normal;
+  margin-bottom:1px;
+}
+
+a {
+  color: #fdf6f6;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Header styles */
+.header {
+background-color: rgba(2, 118, 207, 0.714);
+margin-bottom:620px;
+width: 93vw;
+height:3vh;
+align-content:flex-start;
+top:0;
+  padding: 50px;
+  text-align: center;
+  color: #fff;
+  position:absolute;
+  left:0;
+}
+
+.header h1 {
+  font-size: 36px;
+  margin: 0;
+  float:left;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  margin-top: -10px;
+  float: right;
+}
+
+.nav li {
+  margin: 10px;
+
+}
+
+.nav a {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.nav a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.container {
+  background: #f1425d;
+  padding: 15px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  
+}
+
+/* Sidebar */
+.sidebar {
+  width:15vw;
+  position:fixed;
+  height:83.6vh;
+  left: 0;
+  bottom:0;
+  background-color: #13a8d643;
+}
+
+.sidebar-links {
+list-style: none;
+margin-top: 8vh;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+align-content: center;
+justify-content: center;
+align-items: center;
+gap: 0.6rem;
+}
+
+.sidebar-links li {
+margin-bottom: 10px;
+}
+
+.sidebar-links a {
+color: #fffdfd;
+text-decoration: none;
+display: block;
+}
+
+.sidebar-links a:hover {
+color: #1dae15;
+}
+.dashboard-wrapper{
+
+}
