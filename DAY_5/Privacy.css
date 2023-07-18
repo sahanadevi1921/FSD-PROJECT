@@ -1,0 +1,19 @@
+.body
+{
+    color:black;
+    background-color: rgb(192, 221, 167);
+    /* background-image: url("../assets/home.jpg"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top:30vh;
+    padding-bottom:25vh;
+    margin-left: 25vh;
+    padding:30vh;
+    padding-left: ;
+}
+
+.list
+{
+    margin-left:10%;
+    margin-right: 10%;
+}

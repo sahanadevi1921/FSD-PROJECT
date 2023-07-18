@@ -1,0 +1,134 @@
+*{
+    border: none;
+    padding: none;
+}
+.ul{
+  list-style-type: none;
+}
+.topbar-wrapper{
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #000000;
+    width: 100vw;
+    height: 7vh;
+    display: flex;
+    align-content: flex-start;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 999;
+    
+;
+}
+.topbar-btn{
+    margin-right: 3rem ;
+}
+.sidebar-wrapper{
+    width: 15vw;
+    height:100vh;
+    position:fixed;
+    left: 0;
+    top: 0;
+    background-color: #fff;
+   
+}
+.sidebar-contents{
+    margin-top: 8vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 0.6rem;
+    font-size: 3vh;
+    padding:25px;
+    
+}
+.sidebar-contents li{
+  list-style-type: none;
+}
+.nav-btn{
+    width: 70%
+}
+.dashboard-wrapper{
+
+    background-color:rgb(232, 230, 198);
+    color: #e30a0a;
+    position: absolute;
+    right: 0;
+    top: 6vh;
+    height:60vh;
+    width:70vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* .card-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 9px;
+  }
+  
+  .card-image:hover{
+    opacity: 0.8;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  }
+  .card-content {
+    padding: 16px;
+  }
+  
+  .card-content h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  
+  .card-content p {
+    font-size: 14px;
+    color: #555;
+  }
+  .card-container{
+    top: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    position: absolute;
+  } */
+  .card {
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+    overflow: hidden;
+  }
+  
+  .card-image {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card:hover .card-image {
+    transform: scale(1.1);
+  }
+  
+  .card-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+  }
+  
+  .card-content h3 {
+    margin: 0;
+    font-size: 16px;
+  }
+  .card-content p {
+    font-size: 5px;
+    color: #fa00851c;
+  }
+  
