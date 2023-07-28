@@ -1,0 +1,143 @@
+.logmain{
+    padding: 150px;
+    background-image:url("https://www.websitedesign-service.com/wp-content/uploads/2019/11/slide-ecommerce.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;  
+    margin: 0;
+    background-size: cover;
+    overflow: hidden;
+    width: 1900px;
+    margin-right: 100px;
+    margin-left:-500px ;
+  }
+  .log{
+  color: rgb(255, 250, 250);
+  padding-left: 10px;
+  text-align: center;
+  }
+  .login-form {
+    border-radius: 25px;
+    transform:translateX(450px);
+    max-width: 400px;
+    margin-right: 500px;
+    margin-left: -10px;
+    margin-top: 10px;
+    padding: 50px;
+    align-items: center;
+    background-color:rgb(45, 44, 44,0.4);
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .login-form div {
+    margin-bottom: 17px;
+  }
+  
+  .login-form input[type='text'],
+  .login-form input[type='email'],
+  .login-form input[type='password']
+  {
+    width: 90%;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+    margin-left: 20px;
+  }
+  .sl{
+    color: #7f7f7f;
+  }
+  select{
+    width: 90%;
+    border-radius: 50px;
+    padding: 15px;
+    font-size: 16px;
+  }
+  .login-form button[type='submit'] {
+    width: 70%;
+    padding: 10px;
+    margin: 10px;
+    margin-left:40px;
+    border-radius: 8px;
+    background-color: #2ac634;
+    color: rgb(241, 236, 236);
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .login-form button[type='submit']:hover {
+    background-color: #4cda29;
+  }
+  .error-message {
+      color: red;
+      font-size: 14px;
+      margin-top: 10px;
+    }  
+  .slink{
+  text-decoration: none;
+  }
+  
+  .social-login {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  
+  button {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+    margin:200px;
+    padding: .625rem;
+    text-transform: uppercase;
+    letter-spacing: .7px;
+    cursor: pointer;
+    transition:  .3s ease-in;
+  
+    
+    &:hover {
+      background-color: rgba(#fff, .3);
+    }
+    
+    i {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+      width: 2.25rem;
+      height: 2.25rem;
+      background-color: #fff;
+      border-radius: 50%;
+      font-size: 1.4rem;
+      padding-left: 2px;
+      text-align: center;
+      margin-right: .2rem;
+      
+      &.fa-facebook-f {
+        color: #000000;
+      }
+      
+       
+      
+      &.fa-google {
+        color: #000000;
+      }
+    }
+  }
+  }
+  
+  .separator {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+   span {
+     display:block;
+     width: 100%;
+     height: 1px;
+     background: #ddd;
+     margin: 1.5rem;
+    }
+  }

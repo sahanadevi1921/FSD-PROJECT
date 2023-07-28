@@ -1,0 +1,90 @@
+.main
+{
+  color: black;
+    text-align: center;
+    display: flex;
+    min-height: 800px;
+    align-items: center;
+    justify-content: center;
+    min-width: 1000px;
+    background-image: url("https://ae01.alicdn.com/kf/HTB1uKXhXsnrK1RkHFrdq6xCoFXat/Quartz-Wristwatches-relogio-feminino-Top-Brand-Luxury-Ladies-Watch-Quartz-Classic-Casual-Analog-Watches-Women-18OCT11.jpg");
+    background-repeat: no-repeat;
+}
+.maincon
+{
+    background: #D3CCE3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    min-height: 100px;
+    min-width: 100px;
+  padding-left: 50px;
+  margin-left: 19%;
+}
+.maincon h1 
+{
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 1;
+	animation: neon 0.08s ease-in-out infinite alternate;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+@keyframes neon {
+	from {
+		text-shadow: 0 0 6px rgba(202, 228, 225, 0.92),
+			0 0 30px rgba(202, 228, 225, 0.34), 0 0 12px rgba(30, 132, 242, 0.52),
+			0 0 21px rgba(30, 132, 242, 0.92), 0 0 34px rgba(30, 132, 242, 0.78),
+			0 0 54px rgba(30, 132, 242, 0.92);
+	}
+	to {
+		text-shadow: 0 0 6px rgba(202, 228, 225, 0.98),
+			0 0 30px rgba(202, 228, 225, 0.42), 0 0 12px rgba(30, 132, 242, 0.58),
+			0 0 22px rgba(30, 132, 242, 0.84), 0 0 38px rgba(30, 132, 242, 0.88),
+			0 0 60px rgba(30, 132, 242, 1);
+	}
+}
+.role-selection 
+{
+  margin-top: 50px;
+  margin-bottom:20%;
+}
+.btns 
+{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  padding-right: 900px;
+}
+.role-selection h3{
+     text-align: center;
+}
+.role_btns
+{
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 18px;
+  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+.role_btns:hover 
+{
+  background-color: green;
+  color: #282c34;
+}
+
+.hel{
+  margin-left: -550px;
+  margin-top: 200px;
+}
+.gg{
+  margin-left: -300px;
+  width: 90px;
+}

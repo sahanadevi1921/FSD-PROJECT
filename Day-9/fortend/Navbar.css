@@ -1,0 +1,120 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 1880px;
+  margin-right: 100px;
+    margin-left:-500px ;
+  background-image: url('https://www.gravoc.com/wp-content/uploads/2020/03/eCommerce-Banner-2.png');
+  background-size: cover;
+  background-position: center;
+  color: #fff; /* Text color for the heading and buttons */
+}
+
+/* Styles for the heading */
+.home-container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  margin-left: 300px;
+}
+
+/* Styles for the button container */
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+/* Styles for the buttons */
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  margin: 0 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.admin-button {
+  background-color: #007bff2b; /* Replace with your preferred color */
+  color: #1c1d1e;
+  margin-left:300px;
+}
+
+.user-button {
+  background-color: #28a74650; /* Replace with your preferred color */
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  margin: 0 10px;
+}
+
+.admin-button {
+  background-color: #ff0000;
+  color: #fff;
+}
+
+.user-button {
+  background-color: #0c0ca5b5;
+  color: #ac1497;
+} */

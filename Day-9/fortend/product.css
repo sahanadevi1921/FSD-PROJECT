@@ -1,0 +1,45 @@
+.dashboard-wrapper{
+
+    background-color:rgb(240, 240, 183);
+    color: #0b0b0899;
+    position: absolute;
+    right: 0;
+    top: 6vh;
+    height:550vh;
+    width:84vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-ima {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 9px;
+  }
+  
+  .card-con {
+    padding: 16px;
+  }
+  
+  .card-content h4 {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  
+  .card-content p1 {
+    font-size: 14px;
+    color: #fefbfb;
+  }
+  .card-container{
+    top: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    position: absolute;
+  }
+  .button{
+    color:bisque;
+  }
+  

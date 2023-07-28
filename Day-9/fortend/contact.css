@@ -1,0 +1,31 @@
+.contact-wrapper {
+  background-color: bisque;
+    padding: 100px;
+    width:180vh;
+  }
+  /* body{
+    overflow: hidden;
+  } */
+  .contact-contents {
+    color:black;
+    /* background-color: bisque; */
+    margin-bottom: 35%;
+}
+
+.contact-contents h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+.contact{
+  /* background-color: bisque; */
+    margin-left: 20%;
+    position:relative;
+    bottom:20%;
+}
+.contact-contents p {
+    font-size: 16px;
+    color: #555;
+    text-align: center;
+    margin-left: 9px;
+  }
+  
